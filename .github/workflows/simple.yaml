@@ -113,7 +113,6 @@ jobs:
           name: check-logs-${{ github.event.repository.name }}
 
       - name: Get `.tar.gz` file name
-        if: false
         id: tar-gz
         # Use our custom action.
         uses: user-workshop-cicd/action-example@main
